@@ -1,0 +1,66 @@
+:root {
+    --color1: #222831;
+    --color2: #393E46;
+    --color3: #FD7013;
+    --color4: #EEEEEE;
+}
+
+/* font-family: 'Bebas Neue', cursive; */
+body {
+    font-family: 'Bebas Neue', cursive !important;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color4);
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.btn-div {
+    margin-top: -6em;
+}
+
+.btn-div>button {
+    position: relative;
+    z-index: 9999;
+    font-size: 1.5em;
+    border: none;
+    background-color: transparent;
+    color: var(--color4);
+    /* border-bottom: solid 1px var(--color4); */
+}
+
+.btn-div>button:hover {
+    background-color: rgba(238, 238, 238, 0.2);
+    border: none;
+}
+
+.sliders>#slide {
+    margin: 50px auto;
+    border-radius: 10px;
+    top: 0 !important;
+}
+
+.sliders>#slide-shadow {
+    position: absolute;
+    z-index: -1;
+    margin: 50px auto;
+    border-radius: 10px;
+    filter: blur(20px);
+}
+
+#slide-title {
+    position: absolute;
+    /* right: 50%; */
+    z-index: 10;
+    font-size: 15em;
+    margin: 0 auto;
+    margin-left: 32%;
+    margin-top: 16%;
+    color: #393e46;
+    /* border: solid 2px var(--color4); */
+}
